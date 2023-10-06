@@ -1,0 +1,43 @@
+body{
+    background-color: #f0f2f5;
+    color: black;
+    font-family: Verdana,Tahoma, sans-serif;
+}
+form{
+    display: flex;
+   background-color: white;
+   width: 30%;
+   margin: 280px auto;
+   flex-direction: column;
+   justify-items: center;
+   justify-content: center;
+}
+h1{
+    text-align:left ;
+
+}
+.cfa,.euro {
+    outline: none;
+    border: 1px solid #ccc  ;
+    display : flex ;
+    padding: 15px;
+    margin: 10px 20px;
+}
+button{
+    background-color : rgb(39, 158, 39);
+    color: white;
+    text-align: center;
+    font-size: larger;
+    border: 1px solid #ccc;
+    display : flex ;
+    padding: 15px;
+    margin: 10px 20px;
+}
+.historique{
+    display: flex;
+    background-color: white;
+    width: 67%;
+    height: 400px;
+    margin:auto;
+    flex-direction: column;
+}
